@@ -1,0 +1,321 @@
+repo_name: luankevinferreira/test-infra
+report_id: 85f0748e6cb7c7ac67d225edc4cf90df
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-24T00:01:15+00:00'
+requested_by: paulosjca
+provider: github
+branch: master
+detected_tools_count: 24
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/containers/runtime/python/Dockerfile
+  detection_source: containers/runtime/python/Dockerfile
+  last_updated_by: wanlin du
+  last_updated_on: 2020-09-25 20:30:02.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/containers/init/build/php7/Dockerfile
+  detection_source: containers/init/build/php7/Dockerfile
+  last_updated_by: Wanlin Du
+  last_updated_on: 2021-03-31 17:04:09.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/containers/init/build/node/Dockerfile
+  detection_source: containers/init/build/node/Dockerfile
+  last_updated_by: Wanlin Du
+  last_updated_on: 2021-03-29 18:54:26.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Paulo Castello da Costa
+  last_updated_on: 2020-06-08 15:42:32.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/.github/workflows/go.yaml
+  detection_source: ".github/workflows/go.yaml"
+  last_updated_by: Benjamin Reed
+  last_updated_on: 2020-06-29 21:01:15.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/containers/pre_built_workers/java/Dockerfile
+  detection_source: containers/pre_built_workers/java/Dockerfile
+  last_updated_by: Donghao Qiu
+  last_updated_on: 2021-04-29 00:06:22.000000000 Z
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Paulo Castello da Costa
+  last_updated_on: 2020-06-08 15:42:32.000000000 Z
+- name: PhpSpec
+  description: A  toolset for behavior driven development
+  website_url: http://www.phpspec.net/en/latest/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3502/6b9dfb07681dee602dbdf75d9393f07c_400x400.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/containers/init/build/php7/Dockerfile
+  detection_source: containers/init/build/php7/Dockerfile
+  last_updated_by: Wanlin Du
+  last_updated_on: 2021-03-31 17:04:09.000000000 Z
+- name: Debian
+  description: The Universal Operating System
+  website_url: https://www.debian.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/1656/vd4gAekh.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/containers/init/clone/Dockerfile
+  detection_source: containers/init/clone/Dockerfile
+  last_updated_by: Benjamin Reed
+  last_updated_on: 2020-07-17 06:41:00.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra
+  detection_source: Repo Metadata
+- name: assertion
+  description: Ginkgo's Preferred Matcher Library
+  package_url: https://pkg.go.dev/github.com/onsi/gomega/internal/assertion
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Paulo Castello da Costa
+  last_updated_on: 2020-06-08 15:42:32.000000000 Z
+- name: client-go
+  description: Go client for Kubernetes
+  package_url: https://pkg.go.dev/k8s.io/client-go
+  version: 0.20.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Donghao Qiu
+  last_updated_on: 2021-08-03 21:00:54.000000000 Z
+- name: convert
+  description: BDD Testing Framework for Go
+  package_url: https://pkg.go.dev/github.com/onsi/ginkgo/ginkgo/convert
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Paulo Castello da Costa
+  last_updated_on: 2020-06-08 15:42:32.000000000 Z
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  version: 0.8.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Donghao Qiu
+  last_updated_on: 2021-08-03 21:00:54.000000000 Z
+- name: ginkgo
+  description: BDD Testing Framework for Go
+  package_url: https://pkg.go.dev/github.com/onsi/ginkgo
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Donghao Qiu
+  last_updated_on: 2021-08-03 21:00:54.000000000 Z
+- name: gomega
+  description: Ginkgo's Preferred Matcher Library
+  package_url: https://pkg.go.dev/github.com/onsi/gomega
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Donghao Qiu
+  last_updated_on: 2021-08-03 21:00:54.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Donghao Qiu
+  last_updated_on: 2021-08-03 21:00:54.000000000 Z
+- name: logr
+  description: A simple logging interface for Go
+  package_url: https://pkg.go.dev/github.com/go-logr/logr
+  version: 0.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Donghao Qiu
+  last_updated_on: 2021-08-03 21:00:54.000000000 Z
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Donghao Qiu
+  last_updated_on: 2021-08-03 21:00:54.000000000 Z
+- name: protobuf
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf
+  version: 1.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Donghao Qiu
+  last_updated_on: 2021-08-03 21:00:54.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/luankevinferreira/test-infra/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Donghao Qiu
+  last_updated_on: 2021-08-03 21:00:54.000000000 Z
